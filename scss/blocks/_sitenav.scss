@@ -32,6 +32,9 @@
     text-decoration: none;
     color: #fff;
 }
+.sitenav__toggler {
+    display: none;
+}
 @media only screen and (max-width:550px) {
     .sitenav__list {
         display: none;
