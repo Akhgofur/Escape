@@ -1,0 +1,100 @@
+.featured-posts {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 67px;
+}
+.featured-posts__heading {
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+    &::after {
+        content: '';
+        display: block;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        width: 188px;
+        height: 1px;
+        border-bottom: 1px solid #DEDEDE;
+        margin-top: 16px;
+    }
+}
+.featured-posts__content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-right: -20px;
+}
+.featured-posts__content {
+    text-align: left;
+    z-index: 1;
+    max-width: 460px;
+    width: 100%;
+    padding: 157px 20px 20px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.featured-posts__content-img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.featured-posts__content-heading {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.featured-posts__content-desc {
+    margin-top: 0;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+.featured-posts__content-author {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
+    &::before {
+        content: url(../img/author-img1.png);
+        width: 26px;
+        height: 26px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.featured-posts__content-author-1 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
+    &::before {
+        content: url(../img/author-img2.png);
+        width: 26px;
+        height: 26px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

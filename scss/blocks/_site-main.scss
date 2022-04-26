@@ -1,0 +1,29 @@
+.site-main {
+    background-color: #F7F7F7;
+}
+.site-main__nav {
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    max-width: 850px;
+    width: 100%;
+}
+.site-main__nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include list-unstyled
+}
+.site-main__nav-link {
+    font-family: 'Lora';
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #768088;
+}
+@media only screen and (max-width:550px) {
+    .site-main__nav {
+        display: none;
+    }
+}
