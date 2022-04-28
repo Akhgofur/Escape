@@ -13,6 +13,9 @@
     text-decoration: none;
     color: #fff;
 }
+.sitenav__toggler {
+    display: none;
+}
 .sitenav__list {
     @include list-unstyled
     display: flex;
@@ -32,12 +35,12 @@
     text-decoration: none;
     color: #fff;
 }
-.sitenav__toggler {
-    display: none;
-}
 @media only screen and (max-width:550px) {
     .sitenav__list {
         display: none;
+    }
+    .sitenav__toggler {
+        display: contents;
     }
     .sitenav--footer {
         flex-direction: column;

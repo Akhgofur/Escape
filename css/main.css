@@ -486,6 +486,10 @@ img {
   color: #fff;
 }
 
+.sitenav__toggler {
+  display: none;
+}
+
 .sitenav__list {
   margin: 0;
   padding: 0;
@@ -518,6 +522,9 @@ img {
 @media only screen and (max-width: 550px) {
   .sitenav__list {
     display: none;
+  }
+  .sitenav__toggler {
+    display: contents;
   }
   .sitenav--footer {
     -webkit-box-orient: vertical;
